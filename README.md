@@ -1,1 +1,1 @@
-# Social-Media-Application-Frontend
+# Social-Media-Application-FrontEnd
