@@ -35,6 +35,7 @@ function Signup() {
         <h1 className="heading">Signup</h1>
         <form onSubmit={handleSubmit}>
           <label htmlFor="name">Name</label>
+          
           <input type="text" id="name" className="name" onChange={(e)=>setName(e.target.value)}/>
 
           <label htmlFor="email">Email</label>
@@ -42,7 +43,6 @@ function Signup() {
 
           <label htmlFor="password">Password</label>
           <input type="password" id="password" className="password" onChange={(e)=>setPassword(e.target.value)}/>
-
           <input type="submit" className="submit" />
         </form>
         <p>--or--</p>
